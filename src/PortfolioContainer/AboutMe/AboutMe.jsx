@@ -23,12 +23,13 @@ function AboutMe() {
           <div className="about-me-profile"></div>
           <div className="about-me-details">
             <span className="about-me-description">
-              Hi There, I'am Nowsath A. A Full Stack Web Developer having
-              speacialization in Frontend and Backend development.I have 0+
-              experience in web development having strong skills.I have Front
-              end skills in Javascript,Html,Css,React,Bootstrap.I have also Back
-              end skills in nodeJS.I am excited to make the leap and continue
-              refining my skills with right company
+              Hello! I'm Nowsath, a passionate Full Stack Devolopement. I develop
+              web applications.My core skill is based on JavaScript and I love
+              to do most of the things using JavaScript. I love to make the web
+              more open to the world. I have graduated with a bachelor's degree
+              in Computer Application from Nehru Arts And Science College at
+              Coimbatore, TamilNadu in 2022. I am available for any kind of job
+              opportunity that suits my interests.
             </span>
             <div className="about-me-highlights">
               <div className="highlight-heading">

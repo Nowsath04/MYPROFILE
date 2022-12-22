@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Resume.css";
 import education1 from "../../assets/Resume/education.svg";
-import interest1 from "../../assets/Resume/interests.svg";
 import pskills1 from "../../assets/Resume/programming-skills.svg";
 import projects1 from "../../assets/Resume/projects.svg";
 import workhistory1 from "../../assets/Resume/work-history.svg";
@@ -188,10 +187,10 @@ export default function Resume() {
                   </div>
                   <div className="resume-heading-description">
                     <span>
-                      Hotel Booking System is online booking engine that allows
-                      guests to make secure online reservations through hotel
-                      website and helps hotels to accept bookings and collect
-                      payments online.
+                    Whatsapp-clone app allows you to communicate with your buddies
+                      through chat. It enables you to send and receive messages.
+                      Whatsapp-clone apps make it easier, simpler and faster to
+                      connect with everyone and it is also easy to use.
                     </span>
                   </div>
                 </div>
@@ -272,7 +271,7 @@ export default function Resume() {
                 <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
-                    <span>Music</span>
+                    <span>Listening Music</span>
                   </div>
                 </div>
                 <div className="resume-heading">
@@ -285,7 +284,7 @@ export default function Resume() {
                 <div className="resume-heading">
                   <div className="resume-main-heading">
                     <div className="heading-bullet"></div>
-                    <span>Video Games</span>
+                    <span>Playing Video Games</span>
                   </div>
                 </div>
               </div>
@@ -310,7 +309,7 @@ export default function Resume() {
                     <div className="heading-date">2017-2019</div>
                   </div>
                   <div className="resume-sub-heading">
-                    <span>C.S.I BOYS HR SEC SCHOOL-COIMABATORE-08</span>
+                    <span>C.S.I BOYS HR SEC SCHOOL-COIMABATORE</span>
                   </div>
                   <div className="resume-heading-description">
                     <span></span>
@@ -323,7 +322,7 @@ export default function Resume() {
                     <div className="heading-date">2016-2017</div>
                   </div>
                   <div className="resume-sub-heading">
-                    <span>C.S.I BOYS HR SEC SCHOOL-COIMABATORE-08</span>
+                    <span>C.S.I BOYS HR SEC SCHOOL-COIMABATORE</span>
                   </div>
                 </div>
               </div>
