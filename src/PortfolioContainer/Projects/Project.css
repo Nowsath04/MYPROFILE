@@ -1,0 +1,112 @@
+body{
+  display : block;
+  width : 100%;
+  height : 100vh;
+  position : relative;
+}
+.card-wrapper{
+  position : relative;
+  width : 100%;
+  padding : 0 10px;
+  box-sizing : border-box;
+}
+.card-wrapper :active, .card-wrapper :hover, .card-wrapper :focus{
+  outline: none;
+  border : none;
+}
+.card{
+  width : 100%;
+  height : 450px;
+  border-radius: 16px;
+  overflow : hidden;
+  cursor: pointer;
+  position : relative;
+}
+.card-image{
+    position: absolute;
+    top:0;
+    left:0;
+    width : 100%;
+    height : 100%;
+    z-index: 2;
+    background-color:black;
+    transition: 0.5s;
+}
+.card-image img{
+  width : 100%;
+  height : 100%;
+  object-fit:fill;
+}
+.card-image img:hover{
+  opacity: 4;
+  transition:0.5s;
+}
+.card-image{
+  transform: translateY(-100px);
+  transition : all 0.9s;
+}
+
+.testimonial-section {
+    padding: 40px 0 0px;
+    background-image: url("../../assets/Projects/bg.png");
+     background-position: center;
+    background-attachment: fixed;
+    cursor: pointer;
+    /* position:relative;
+    z-index: -1; */
+  }
+  .testimonial-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+    background-color:black;
+  }
+  .footer-image {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+  }
+  .footer-image img {
+    max-width: 100%;
+    height: 130px;
+  }
+  
+  .testimonial-section .testi-item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px 50px 50px 0px;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial-section .testi-item p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-style: italic;
+  }
+  .project-pic{
+    border-radius: 15px 15px 15px 0px;
+  }
+  .row{
+    display: flex;
+    justify-content:center;
+  }
+  .container{
+    max-width: 1200px;    
+  }
+  .Owl{
+    padding : 15px;
+  }
+
